@@ -8,7 +8,7 @@ Short explanation of what UniMate is.
 - Tasks / Assignments / Quizzes
 - Attendance
 - Timetable
-- Marks and GPA
+- Marks and CGPA
 
 ## Current Task
 Lab Project Task 1 focuses on UI and layouts.
