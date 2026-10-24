@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UniMate"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniMate">
+
+        <!-- Marks and GPA Screen -->
+        <activity
+            android:name=".activity_gpa"
+            android:exported="false" />
+
+        <!-- Weekly Timetable Screen -->
+        <activity
+            android:name=".TimetableActivity"
+            android:exported="false" />
+
+        <!-- Attendance Tracker Screen -->
+        <activity
+            android:name=".AttendanceActivity"
+            android:exported="false" />
+
+        <!-- Assignments and Quizzes Screen -->
+        <activity
+            android:name=".TasksActivity"
+            android:exported="false" />
+
+        <!-- Courses Screen -->
+        <activity
+            android:name=".CoursesActivity"
+            android:exported="false" />
+
+        <!-- Main Dashboard Screen -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <!-- Splash Screen: Starting Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
