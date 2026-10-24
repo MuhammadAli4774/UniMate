@@ -42,8 +42,8 @@ Lab Project Task 1 focuses on UI and layouts.
 - Some buttons/screens are still placeholders.
 
 ## Project Members
-- Muhammad Ali — SAP ID: [your ID]
-- [Group Member Name] — SAP ID: [member ID]
+- Muhammad Ali — SAP ID: 70150328
+- Rabia Arshad — SAP ID: 70151001
 
 ## Repository Information
 Branch: master
